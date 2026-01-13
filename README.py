@@ -4,19 +4,21 @@
 # Mikäli numero oli liian iso tai pieni, kerrotaan käyttäjälle "liian iso" tai "liian pieni" ja kysytään uudelleen.
 # Mieti miten saat ohjelman toimimaan alla olevilla metodeilla ja ohjeilla.
 
+import random
+
 class NumberGuessingGame:
 
     def __init__(self):
-        pass  
+        pass
        
     def generate_random_number(self):
-        pass 
+        self.number = random.randint(1, 10)
       
     def ask_number(self):
         pass 
               
     def add_guess_count(self):
-        pass  
+        self.count += 1
            
     def main_game_loop(self):
         pass
