@@ -4,6 +4,8 @@
 # Mikäli numero oli liian iso tai pieni, kerrotaan käyttäjälle "liian iso" tai "liian pieni" ja kysytään uudelleen.
 # Mieti miten saat ohjelman toimimaan alla olevilla metodeilla ja ohjeilla.
 
+
+
 import random
 
 class NumberGuessingGame:
